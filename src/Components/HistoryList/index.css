@@ -1,0 +1,38 @@
+.list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.history-icon-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 13px;
+  width: 100%;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+.delete {
+  justify-content: end;
+}
+.site-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+h5 {
+  margin-right: 7px;
+}
+
+.date {
+  width: 100px;
+}
+
+.no-items {
+  text-align: center;
+}
